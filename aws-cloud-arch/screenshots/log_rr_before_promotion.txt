@@ -1,0 +1,49 @@
+mac81619:nd063-c2-design-for-availability-resilience-reliability-replacement-project-starter-template venkat$ ssh -i secondary-ec2-keys.pem ec2-user@3.16.15.123
+Last login: Wed Sep 15 17:37:56 2021 from 122.181.211.153
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+[ec2-user@ip-192-168-2-87 ~]$ mysql -u root -P 3306 -h rs14e88zwhojizg.c2r857fceeev.us-east-2.rds.amazonaws.com -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 24
+Server version: 8.0.23 Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MySQL [(none)]> use udacity
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MySQL [udacity]> CREATE TABLE recipes (
+    ->   recipe_id INT NOT NULL,
+    ->   recipe_name VARCHAR(30) NOT NULL,
+    ->   PRIMARY KEY (recipe_id),
+    ->   UNIQUE (recipe_name)
+    -> );
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement
+MySQL [udacity]> INSERT INTO recipes 
+    ->     (recipe_id, recipe_name) 
+    -> VALUES 
+    ->     (1,"Tacos"),
+    ->     (2,"Tomato Soup"),
+    ->     (3,"Grilled Cheese");
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement
+MySQL [udacity]> select * from recipes;
++-----------+----------------+
+| recipe_id | recipe_name    |
++-----------+----------------+
+|         3 | Grilled Cheese |
+|         1 | Tacos          |
+|         2 | Tomato Soup    |
++-----------+----------------+
+3 rows in set (0.00 sec)
+
+MySQL [udacity]> 

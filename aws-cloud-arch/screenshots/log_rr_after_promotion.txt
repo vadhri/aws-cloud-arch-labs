@@ -1,0 +1,60 @@
+mac81619:nd063-c2-design-for-availability-resilience-reliability-replacement-project-starter-template venkat$ ssh -i secondary-ec2-keys.pem ec2-user@3.16.15.123
+Last login: Wed Sep 15 17:50:22 2021 from 122.181.211.153
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+[ec2-user@ip-192-168-2-87 ~]$ mysql -u root -P 3306 -h rs14e88zwhojizg.c2r857fceeev.us-east-2.rds.amazonaws.com -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.23 Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MySQL [(none)]> use udacity
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MySQL [udacity]> CREATE TABLE recipe_ingredients (   recipe_id int NOT NULL,    ingredient_id INT NOT NULL,    amount INT NOT NULL,   PRIMARY KEY (recipe_id,ingredient_id) );
+Query OK, 0 rows affected (0.03 sec)
+
+MySQL [udacity]> INSERT INTO recipe_ingredients 
+    ->     (recipe_id, ingredient_id, amount)
+    -> VALUES
+    ->     (1,1,1),
+    ->     (1,2,2),
+    ->     (1,3,2),
+    ->     (1,4,3),
+    ->     (1,5,1),
+    ->     (2,3,2),
+    ->     (2,6,1),
+    ->     (3,5,1),
+    ->     (3,7,2);
+Query OK, 9 rows affected (0.00 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+MySQL [udacity]> select * from recipe_ingredients;
++-----------+---------------+--------+
+| recipe_id | ingredient_id | amount |
++-----------+---------------+--------+
+|         1 |             1 |      1 |
+|         1 |             2 |      2 |
+|         1 |             3 |      2 |
+|         1 |             4 |      3 |
+|         1 |             5 |      1 |
+|         2 |             3 |      2 |
+|         2 |             6 |      1 |
+|         3 |             5 |      1 |
+|         3 |             7 |      2 |
++-----------+---------------+--------+
+9 rows in set (0.00 sec)
+
+MySQL [udacity]> 
+
