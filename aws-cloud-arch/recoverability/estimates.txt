@@ -1,0 +1,37 @@
+1. Minimum RTO for a single AZ outage
+
+Minimum RTO = 60-120 seconds
+Documentation: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+
+60-120s to switch of AZ. 
+
+
+2. Minimum RTO for a single region outage
+
+Typically when there is a read replica, the solution is read transaction heavy. If the region where the outage happened is DBMaster region, then the read replica can be promoted for usage. 
+
+A. Promote the read replica in a different region to DBMaster. 
+B. Configure the micro service or app to interact with the new DB arn. 
+C. [Optional] Spin up another master to create the same set up of Master, Slave since after (B) there is only one master and no replica. 
+
+A + B = 5 mins + ( time required to configure app ) 10 mins
+
+~ 15 mins
+
+3. Minimum RPO for a single AZ outage
+
+No RPO since the traffic is diverted to the 'other' AZ. ( configured to be multi AZ )
+
+4. Minimum RPO for a single region outage
+
+Outage of read replica region : no RPO, spin up another read replica and no data is lost. ( only RTO is impacted ) 
+Outage of master region : 
+
+Automated backups are available daily and transaction logs until last 5 mins. 
+
+Time taken = T(Create new db + restore from back up and s3 logs) + T(point apps to new instance of RDS)
+
+	  = 30 mins + K (large db size) + 10 mins
+
+Minimum RPO : 45mins - 1 hr
+
