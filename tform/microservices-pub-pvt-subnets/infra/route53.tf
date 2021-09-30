@@ -1,19 +1,27 @@
 resource "aws_route53_zone" "primary" {
-  name = "XXXXX"
+  name = "######"
 }
 
 resource "aws_route53_record" "primary" {
   zone_id = aws_route53_zone.primary.zone_id
-  name    = "XXXXX"
+  name    = ""######""
   type    = "A"
-  ttl     = "300"
-  records = [aws_eip.alb-elastic-ip.public_ip]
+
+  alias {
+    evaluate_target_health = true
+    name = aws_lb.webserver_lb.dns_name
+    zone_id = aws_lb.webserver_lb.zone_id
+  }
 }
 
 resource "aws_route53_record" "primary_with_www" {
   zone_id = aws_route53_zone.primary.zone_id
-  name    = "XXXXX"
+  name    = ""######""
   type    = "A"
-  ttl     = "300"
-  records = [aws_eip.alb-elastic-ip.public_ip]
+
+  alias {
+    evaluate_target_health = true
+    name = aws_lb.webserver_lb.dns_name
+    zone_id = aws_lb.webserver_lb.zone_id
+  }  
 }
