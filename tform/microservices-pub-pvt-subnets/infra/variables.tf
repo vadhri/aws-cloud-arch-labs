@@ -21,3 +21,21 @@ variable "ami_key_pair_name" {
     type = string 
     default = "ec-access"
 }
+
+variable "acm_cert_arn" {
+  description = "ACM certificate"
+  type = string
+  default = "XXXXXXXX"
+}
+
+variable "domain_name" {
+    description = "domain name"
+    type = string
+    default = "XXXXXXXX"
+}
+
+variable "domain_name_alt1" {
+    description = "alternate sub-domain name"
+    type = string
+    default = "XXXXXXXX"
+}
