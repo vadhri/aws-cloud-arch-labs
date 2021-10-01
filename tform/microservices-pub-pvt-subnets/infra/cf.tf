@@ -1,6 +1,6 @@
 resource "aws_cloudfront_distribution" "clf" {
     enabled = true
-    aliases = ["saptarci.link", "www.saptarci.link"]
+    aliases = [var.domin_name, var.domain_name_alt1]
     
     viewer_certificate {
         acm_certificate_arn = var.acm_cert_arn

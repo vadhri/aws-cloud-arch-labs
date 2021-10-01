@@ -1,5 +1,5 @@
 [package]
-name = "encrypt_decrypt_service"
+name = "sample_front_end"
 version = "0.1.0"
 edition = "2018"
 
