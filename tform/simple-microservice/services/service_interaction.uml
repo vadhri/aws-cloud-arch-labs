@@ -1,0 +1,14 @@
+@startuml
+    alt store the string
+        Client -> WebService: Store string and use passcode.
+        WebService -> DbService: Check the hash and passcode. 
+        DbService -> WebService: Hash for the stored string.
+        WebService -> Client: Hash for the stored string.
+    end alt
+    alt retrieve string
+        Client -> WebService : hash and passcode
+        WebService -> DbService: Check the hash and passcode. 
+        DbService -> WebService : String 
+        WebService -> Client : String
+    end alt
+@enduml

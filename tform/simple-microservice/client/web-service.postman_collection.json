@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "7ff468b4-30ab-4c3c-8e97-aab5f87755ac",
+		"name": "web-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "generate_hash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"payload\": \"TestStringPayload1\",\n    \"passcode\": \"secret-key\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/generate_hash",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"generate_hash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getString",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"hash\": \"1234\",\n    \"passcode\": \"app\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/getString",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"getString"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

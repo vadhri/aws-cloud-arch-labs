@@ -1,0 +1,18 @@
+[package]
+name = "sample_db"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+env_logger = "0.4.0"
+log = "0.3.7"
+ordered-float = "0.3.0"
+try_from = "0.2.0"
+thrift = "0.0.2"
+serde_derive = "1.0.130"
+serde = "1.0.130"
+crypto-hash = "0.3.4"
+mysql = "*"

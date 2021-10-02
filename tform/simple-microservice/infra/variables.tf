@@ -25,17 +25,17 @@ variable "ami_key_pair_name" {
 variable "acm_cert_arn" {
   description = "ACM certificate"
   type = string
-  default = "XXXXXXXX"
+  default = "arn:aws:acm:us-east-1:166517699715:certificate/5ff0385f-c380-49f3-9edf-7da3b9468359"
 }
 
 variable "domain_name" {
     description = "domain name"
     type = string
-    default = "XXXXXXXX"
+    default = "saptarci.link"
 }
 
 variable "domain_name_alt1" {
     description = "alternate sub-domain name"
     type = string
-    default = "XXXXXXXX"
+    default = "www.saptarci.link"
 }
