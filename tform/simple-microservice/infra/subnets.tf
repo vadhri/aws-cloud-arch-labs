@@ -42,3 +42,46 @@ resource "aws_subnet" "private_subnet2" {
   }
 }
 
+resource "aws_subnet" "db_private_subnet1" {
+  vpc_id                  = aws_vpc.region_vpc.id
+  cidr_block              = "10.0.5.0/24"
+  map_public_ip_on_launch = false
+  availability_zone       = var.db_az1
+
+  tags = {
+    Name = "db private_subnet"
+  }
+}
+
+resource "aws_subnet" "db_private_subnet2" {
+  vpc_id                  = aws_vpc.region_vpc.id
+  cidr_block              = "10.0.6.0/24"
+  map_public_ip_on_launch = false
+  availability_zone       = var.db_az2
+
+  tags = {
+    Name = "db private_subnet"
+  }
+}
+
+resource "aws_subnet" "replica_db_private_subnet1" {
+  vpc_id                  = aws_vpc.region_vpc.id
+  cidr_block              = "10.0.7.0/24"
+  map_public_ip_on_launch = false
+  availability_zone       = var.db_az1
+
+  tags = {
+    Name = "db private_subnet"
+  }
+}
+
+resource "aws_subnet" "replica_db_private_subnet2" {
+  vpc_id                  = aws_vpc.region_vpc.id
+  cidr_block              = "10.0.8.0/24"
+  map_public_ip_on_launch = false
+  availability_zone       = var.db_az2
+
+  tags = {
+    Name = "db private_subnet"
+  }
+}

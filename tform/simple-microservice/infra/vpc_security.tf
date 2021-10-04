@@ -1,5 +1,5 @@
 resource "aws_security_group" "security" {
-    name = "allow_all"
+    name = "allow_80_8080_22_443"
     vpc_id = "${aws_vpc.region_vpc.id}"
     
     ingress {
@@ -41,6 +41,15 @@ resource "aws_security_group" "security" {
         to_port = 0
 
         protocol = "icmp"
+    }
+
+    ingress {
+        cidr_blocks = ["0.0.0.0/0"]
+
+        from_port = 3306
+        to_port = 3306
+
+        protocol = "tcp"
     }
 
     egress {

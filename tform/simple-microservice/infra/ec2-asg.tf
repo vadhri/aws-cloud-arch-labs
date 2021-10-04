@@ -1,7 +1,7 @@
 
 resource "aws_launch_configuration" "launch_conf_frontend" {
   name_prefix   = "asg-launch-app-"
-  image_id      = "ami-0cf5ecd839872ea62"
+  image_id      = var.frontend_service_container_image
   instance_type = "t2.micro"
   key_name = aws_key_pair.generated_key_pair.key_name
   security_groups = ["${aws_security_group.security.id}"]
@@ -13,7 +13,7 @@ resource "aws_launch_configuration" "launch_conf_frontend" {
 
 resource "aws_launch_configuration" "launch_conf_db_servers" {
   name_prefix   = "asg-launch-db-"
-  image_id      = "ami-0cf5ecd839872ea62"
+  image_id      = var.db_service_container_image
   instance_type = "t2.micro"
   key_name = aws_key_pair.generated_key_pair.key_name
   security_groups = ["${aws_security_group.security.id}"]
@@ -25,9 +25,8 @@ resource "aws_launch_configuration" "launch_conf_db_servers" {
 
 
 resource "aws_autoscaling_policy" "scaling_policy" {
-  name = "auto-scaling-policy-for-ec2-webserver"
-  
   adjustment_type = "TargetTrackingScaling"
+  name = "auto-scaling-policy-for-ec2-webserver"
   policy_type = "TargetTrackingScaling"
 
   autoscaling_group_name = aws_autoscaling_group.asg_public.name

@@ -21,3 +21,7 @@ The example helps with ..
 - packer build process to create a desired image for autoscale group to pick up
 - a sample rust project to act as a service.
 - [todo] a sample rust project to act as a db app utility.
+
+## Open points
+- Have table in rds create as per schema at first boot. ( or make changes in the service )
+- Intermittent 502 seen for accessing the methods. 

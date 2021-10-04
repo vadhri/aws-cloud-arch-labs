@@ -4,7 +4,7 @@ resource "aws_cloudfront_distribution" "clf" {
     
     viewer_certificate {
         acm_certificate_arn = var.acm_cert_arn
-        cloudfront_default_certificate = true
+        cloudfront_default_certificate = false
         ssl_support_method = "sni-only"
     }
 

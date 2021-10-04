@@ -1,4 +1,4 @@
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder, Result};
+use actix_web::{post, web, App, HttpResponse, HttpServer, Responder};
 use mysql::*;
 use mysql::prelude::*;
 
@@ -10,8 +10,8 @@ use std::{thread, time};
 use structs::*;
 
 #[post("/getString")]
-async fn get_string(form: web::Json<GetStringRequest>, db_pool: web::Data<mysql::Pool>) -> impl Responder {
-    let mut conn = db_pool.get_conn().unwrap();
+async fn get_string(form: web::Json<GetStringRequest>, handles: web::Data<Dbhandles>) -> impl Responder {
+    let mut conn = handles.db_pool_read.get_conn().unwrap();
     let mut query = "SELECT hash, payload, passcode from test WHERE hash='".to_owned();
     
     query.push_str(&form.hash.to_string());
@@ -49,9 +49,14 @@ async fn get_string(form: web::Json<GetStringRequest>, db_pool: web::Data<mysql:
 }
 
 #[post("/generate_hash")]
-async fn generate_hash(req: web::Json<GenerateHashRequest>, db_pool: web::Data<mysql::Pool>) -> impl Responder {
-    let digest = hex_digest(Algorithm::SHA256, req.payload.as_bytes());
-    let mut conn = db_pool.get_conn().unwrap();
+async fn generate_hash(req: web::Json<GenerateHashRequest>, handles: web::Data<Dbhandles>) -> impl Responder {
+    println!("[generate_hash] {:?} {:?}", req.payload, req.passcode);
+
+    let digest = req.payload.clone();
+
+    println!("[generate_hash] {:?} ", digest);
+
+    let mut conn = handles.db_pool_write.get_conn().unwrap();
     let mut query = "SELECT hash, payload, passcode from test WHERE hash='".to_owned();
     query.push_str(&digest.to_string());
     query.push_str(&"';");
@@ -63,6 +68,8 @@ async fn generate_hash(req: web::Json<GenerateHashRequest>, db_pool: web::Data<m
                 DbRecordWrite { hash, payload, passcode }
             },
         ).unwrap();
+
+    println!("generate_hash {:?}", selected_payments);
 
     if selected_payments.len() == 0 {
         conn.exec_batch(
@@ -81,6 +88,8 @@ async fn generate_hash(req: web::Json<GenerateHashRequest>, db_pool: web::Data<m
         hash: digest
     };
 
+    println!("[generate_hash] {:?}", o);
+
     HttpResponse::Ok()
         .content_type("application/json")
         .json(o)
@@ -90,15 +99,14 @@ async fn generate_hash(req: web::Json<GenerateHashRequest>, db_pool: web::Data<m
 async fn main() -> std::io::Result<()> {
     println!("starting service.....");
 
-    let url = "mysql://XXXXXXXX:XXXXXXXX@XXXXXXXX:3306/XXXXXXXX";
+    let url = "mysql://root:qwertyuiopasdf@rdsreplicadbservice.service._tcp.local:3306/test";
     let opts = Opts::from_url(url).unwrap();
     
-
     let db_status = false;
 
     while db_status == false {
         match Pool::new(opts.clone()) {
-            Ok(x) => {
+            Ok(_value) => {
                 break;
             },
             _ => {
@@ -109,13 +117,20 @@ async fn main() -> std::io::Result<()> {
         }
     }
 
-    println!("Database connected....");
+    println!("Database connected.");
 
-    let pool = Pool::new(opts).unwrap();
+    let pool_read = Pool::new(opts).unwrap();
+    
+    let url_rw = "mysql://root:qwertyuiopasdf@rdsdbservice.service._tcp.local:3306/test";
+    let opts_rw = Opts::from_url(url_rw).unwrap();
+    let pool_rw = Pool::new(opts_rw).unwrap();
 
     HttpServer::new(move || {
         App::new()
-            .data(pool.clone())
+            .data(Dbhandles {
+                db_pool_read: pool_read.clone(),
+                db_pool_write: pool_rw.clone()
+            })
             .service(get_string)
             .service(generate_hash)
     })
