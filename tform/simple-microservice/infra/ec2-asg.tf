@@ -21,6 +21,9 @@ resource "aws_launch_configuration" "launch_conf_db_servers" {
   lifecycle {
     create_before_destroy = true
   }
+  depends_on = [
+    aws_db_instance.Rds-Db-Replica
+  ]
 }
 
 
@@ -67,7 +70,7 @@ resource "aws_autoscaling_group" "asg_private" {
   min_size             = 1
   max_size             = 2
 
-  target_group_arns = [aws_lb_target_group.frontendtg.arn]
+  target_group_arns = [aws_lb_target_group.dbservicetg.arn]
   vpc_zone_identifier = [aws_subnet.private_subnet1.id,  aws_subnet.private_subnet2.id]
   
   tag {

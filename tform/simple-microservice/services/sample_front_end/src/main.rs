@@ -26,6 +26,12 @@ struct GetStringResponse {
     error: i32
 }
 
+#[get("/")]
+async fn healthcheck() -> HttpResponse {
+    HttpResponse::Ok().body("OK")
+}
+
+
 #[post("/getString")]
 async fn get_string(req: web::Json<GetStringRequest>) -> impl Responder {
     println!("{:?} {:?}", req.hash, req.passcode);
@@ -36,7 +42,7 @@ async fn get_string(req: web::Json<GetStringRequest>) -> impl Responder {
         passcode: req.passcode.clone()
     };
 
-    let response = client.post("http://db-service.internal:8080/getString")
+    let response = client.post("http://dbservice.internal:8080/getString")
         .content_type("application/json")
         .send_json(&onward_req)
         .await.unwrap()
@@ -62,7 +68,7 @@ async fn generate_hash(req: web::Json<GenerateHashRequest>) -> impl Responder {
         passcode: req.passcode.clone()
     };
 
-   let response = client.post("http://db-service.internal:8080/generate_hash")
+   let response = client.post("http://dbservice.internal:8080/generate_hash")
         .content_type("application/json")
         .send_json(&onward_req)
         .await.unwrap()
@@ -83,10 +89,11 @@ async fn main() -> std::io::Result<()> {
     println!("{:?}", "starting the server");
     HttpServer::new(|| {
         App::new()
-            .service(get_string)
-            .service(generate_hash)
+        .service(healthcheck)
+        .service(get_string)
+        .service(generate_hash)
     })
-    .bind("0.0.0.0:8081")?
+    .bind("0.0.0.0:8080")?
     .run()
     .await
 }

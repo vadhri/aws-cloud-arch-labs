@@ -40,6 +40,47 @@ resource "aws_lb" "dbserver_lb" {
   }
 }
 
+resource "aws_lb_target_group" "dbservicetg" {
+  name     = "dbservice-target-group"
+  port     = 8080
+  protocol = "HTTP"
+  vpc_id   = aws_vpc.region_vpc.id
+}
+
+resource "aws_lb_listener" "dbservice_listener_8080" {
+  load_balancer_arn = aws_lb.dbserver_lb.arn
+  port              = "8080"
+  protocol          = "HTTP"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.dbservicetg.arn
+  }
+}
+
+resource "aws_lb_listener" "dbservice_listener_80" {
+  load_balancer_arn = aws_lb.dbserver_lb.arn
+  port              = "80"
+  protocol          = "HTTP"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.dbservicetg.arn
+  }
+}
+
+resource "aws_lb_listener" "dbservice_listener_443" {
+  load_balancer_arn = aws_lb.dbserver_lb.arn
+  port              = "443"
+  protocol          = "HTTPS"
+  ssl_policy = "ELBSecurityPolicy-FS-1-2-Res-2020-10"
+  certificate_arn = var.acm_cert_arn
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.dbservicetg.arn
+  }
+}
 
 resource "aws_lb_target_group" "frontendtg" {
   name     = "frontend-target-group"

@@ -1,4 +1,4 @@
-use actix_web::{post, web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{get,post, web, App, HttpResponse, HttpServer, Responder};
 use mysql::*;
 use mysql::prelude::*;
 
@@ -8,6 +8,13 @@ mod structs;
 use std::{thread, time};
 
 use structs::*;
+
+#[get("/")]
+async fn healthcheck() -> impl Responder {
+    HttpResponse::Ok()
+    .content_type("application/json")
+    .body("OK")    
+}
 
 #[post("/getString")]
 async fn get_string(form: web::Json<GetStringRequest>, handles: web::Data<Dbhandles>) -> impl Responder {
@@ -125,6 +132,18 @@ async fn main() -> std::io::Result<()> {
     let opts_rw = Opts::from_url(url_rw).unwrap();
     let pool_rw = Pool::new(opts_rw).unwrap();
 
+    let mut conn = pool_rw.get_conn().unwrap();
+
+    // To init tables, table create could possibly be another script that launches into the private ec2 instance and does the operation at commandline. 
+    // the following is also a method. 
+
+    conn.query_drop(
+        r"CREATE TABLE test (
+            hash varchar(255),
+            payload varchar(255),
+            passcode varchar(255)
+        )");
+
     HttpServer::new(move || {
         App::new()
             .data(Dbhandles {
@@ -132,6 +151,7 @@ async fn main() -> std::io::Result<()> {
                 db_pool_write: pool_rw.clone()
             })
             .service(get_string)
+            .service(healthcheck)
             .service(generate_hash)
     })
     .bind("0.0.0.0:8080")?

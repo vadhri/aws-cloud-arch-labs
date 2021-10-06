@@ -59,22 +59,3 @@ resource "aws_service_discovery_instance" "service-discovery-db-service" {
     AWS_ALIAS_DNS_NAME = aws_lb.dbserver_lb.dns_name
   }
 }
-
-resource "aws_service_discovery_service" "Rds-Service-Discovery" {
-  name = "rdsdbservice"
-
-  dns_config {
-    namespace_id = aws_service_discovery_private_dns_namespace.internal.id
-
-    dns_records {
-      ttl  = 10
-      type = "SRV"
-    }
-
-    routing_policy = "WEIGHTED"
-  }
-
-  health_check_custom_config {
-    failure_threshold = 1
-  }
-}

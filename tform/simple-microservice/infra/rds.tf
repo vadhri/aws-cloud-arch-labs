@@ -46,4 +46,7 @@ resource "aws_db_instance" "Rds-Db-Replica" {
     skip_final_snapshot  = true
     parameter_group_name = "default.mysql5.7"
     apply_immediately = true
+    depends_on = [
+      aws_db_instance.Rds-Db
+    ]
 }
