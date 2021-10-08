@@ -1,0 +1,12 @@
+Active users = 50,000
+Avg session time = 5mins
+Avg user base logins per month = 20
+Avg no.of calls per session of user = 100
+Avg data transfer per API call = 100 KB
+Geo user base : us-east-1 
+
+Total API calls : 50,000 * 20 * 100 = 10000000 * 100 KB = 1000 GB
+
+No of requests per month = 10000000
+
+Data : 1000 GB

@@ -1,0 +1,319 @@
+aws_instance.m4large[1]: Refreshing state... [id=i-00ef1c65081f023f6]
+aws_instance.m4large[0]: Refreshing state... [id=i-078e73cb000ec20e3]
+aws_instance.m4large[2]: Refreshing state... [id=i-0288207afe3e197d9]
+aws_instance.t2micro[1]: Refreshing state... [id=i-043a319af0ed5859b]
+aws_instance.t2micro[0]: Refreshing state... [id=i-0794bc4f62ba1e071]
+aws_instance.m4large[3]: Refreshing state... [id=i-03a9b4d02873af662]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.m4large[2] will be destroyed
+  - resource "aws_instance" "m4large" {
+      - ami                                  = "ami-087c17d1fe0178315" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:166517699715:instance/i-0288207afe3e197d9" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1f" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0288207afe3e197d9" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-05269244077d5aee3" -> null
+      - private_dns                          = "ip-10-0-0-7.ec2.internal" -> null
+      - private_ip                           = "10.0.0.7" -> null
+      - public_dns                           = "ec2-3-235-77-218.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.235.77.218" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0f41a5571cccfef09" -> null
+      - tags                                 = {
+          - "Name" = "Udacity M4 3"
+        } -> null
+      - tags_all                             = {
+          - "Name" = "Udacity M4 3"
+        } -> null
+      - tenancy                              = "default" -> null
+      - vpc_security_group_ids               = [
+          - "sg-07782a199bb6411b8",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-079b4ccd4f5db1e11" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.m4large[3] will be destroyed
+  - resource "aws_instance" "m4large" {
+      - ami                                  = "ami-087c17d1fe0178315" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:166517699715:instance/i-03a9b4d02873af662" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1f" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-03a9b4d02873af662" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-0df1f78e637485e31" -> null
+      - private_dns                          = "ip-10-0-0-221.ec2.internal" -> null
+      - private_ip                           = "10.0.0.221" -> null
+      - public_dns                           = "ec2-3-235-148-186.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.235.148.186" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0f41a5571cccfef09" -> null
+      - tags                                 = {
+          - "Name" = "Udacity M4 4"
+        } -> null
+      - tags_all                             = {
+          - "Name" = "Udacity M4 4"
+        } -> null
+      - tenancy                              = "default" -> null
+      - vpc_security_group_ids               = [
+          - "sg-07782a199bb6411b8",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-05b6131cde1817bc0" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 2 to destroy.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
+mac81619:Exercise 1 venkat$ terraform apply
+aws_instance.m4large[2]: Refreshing state... [id=i-0288207afe3e197d9]
+aws_instance.m4large[1]: Refreshing state... [id=i-00ef1c65081f023f6]
+aws_instance.m4large[3]: Refreshing state... [id=i-03a9b4d02873af662]
+aws_instance.t2micro[1]: Refreshing state... [id=i-043a319af0ed5859b]
+aws_instance.m4large[0]: Refreshing state... [id=i-078e73cb000ec20e3]
+aws_instance.t2micro[0]: Refreshing state... [id=i-0794bc4f62ba1e071]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.m4large[2] will be destroyed
+  - resource "aws_instance" "m4large" {
+      - ami                                  = "ami-087c17d1fe0178315" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:166517699715:instance/i-0288207afe3e197d9" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1f" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0288207afe3e197d9" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-05269244077d5aee3" -> null
+      - private_dns                          = "ip-10-0-0-7.ec2.internal" -> null
+      - private_ip                           = "10.0.0.7" -> null
+      - public_dns                           = "ec2-3-235-77-218.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.235.77.218" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0f41a5571cccfef09" -> null
+      - tags                                 = {
+          - "Name" = "Udacity M4 3"
+        } -> null
+      - tags_all                             = {
+          - "Name" = "Udacity M4 3"
+        } -> null
+      - tenancy                              = "default" -> null
+      - vpc_security_group_ids               = [
+          - "sg-07782a199bb6411b8",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-079b4ccd4f5db1e11" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.m4large[3] will be destroyed
+  - resource "aws_instance" "m4large" {
+      - ami                                  = "ami-087c17d1fe0178315" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:166517699715:instance/i-03a9b4d02873af662" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1f" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-03a9b4d02873af662" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-0df1f78e637485e31" -> null
+      - private_dns                          = "ip-10-0-0-221.ec2.internal" -> null
+      - private_ip                           = "10.0.0.221" -> null
+      - public_dns                           = "ec2-3-235-148-186.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.235.148.186" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0f41a5571cccfef09" -> null
+      - tags                                 = {
+          - "Name" = "Udacity M4 4"
+        } -> null
+      - tags_all                             = {
+          - "Name" = "Udacity M4 4"
+        } -> null
+      - tenancy                              = "default" -> null
+      - vpc_security_group_ids               = [
+          - "sg-07782a199bb6411b8",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-05b6131cde1817bc0" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 2 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_instance.m4large[2]: Destroying... [id=i-0288207afe3e197d9]
+aws_instance.m4large[3]: Destroying... [id=i-03a9b4d02873af662]
+aws_instance.m4large[3]: Still destroying... [id=i-03a9b4d02873af662, 10s elapsed]
+aws_instance.m4large[2]: Still destroying... [id=i-0288207afe3e197d9, 10s elapsed]
+aws_instance.m4large[3]: Still destroying... [id=i-03a9b4d02873af662, 20s elapsed]
+aws_instance.m4large[2]: Still destroying... [id=i-0288207afe3e197d9, 20s elapsed]
+aws_instance.m4large[2]: Still destroying... [id=i-0288207afe3e197d9, 30s elapsed]
+aws_instance.m4large[3]: Still destroying... [id=i-03a9b4d02873af662, 30s elapsed]
+aws_instance.m4large[2]: Still destroying... [id=i-0288207afe3e197d9, 40s elapsed]
+aws_instance.m4large[3]: Still destroying... [id=i-03a9b4d02873af662, 40s elapsed]
+aws_instance.m4large[2]: Still destroying... [id=i-0288207afe3e197d9, 50s elapsed]
+aws_instance.m4large[3]: Still destroying... [id=i-03a9b4d02873af662, 50s elapsed]
+aws_instance.m4large[2]: Destruction complete after 58s
+aws_instance.m4large[3]: Destruction complete after 58s
+
+Apply complete! Resources: 0 added, 0 changed, 2 destroyed.
+mac81619:Exercise 1 venkat$ 
