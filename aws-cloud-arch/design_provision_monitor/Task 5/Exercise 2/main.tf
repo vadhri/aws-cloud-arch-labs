@@ -14,17 +14,17 @@ resource "aws_instance" "t2micro" {
     }
 }
 
-resource "aws_instance" "m4large" {
-    count = 2
-    ami               = "ami-087c17d1fe0178315"
-    instance_type     = "m4.large"
-    availability_zone = "us-east-1f"
-    subnet_id = var.public_subnet
+# resource "aws_instance" "m4large" {
+#     count = 2
+#     ami               = "ami-087c17d1fe0178315"
+#     instance_type     = "m4.large"
+#     availability_zone = "us-east-1f"
+#     subnet_id = var.public_subnet
 
-    tags = {
-    Name = "Udacity M4 ${count.index + 1}"
-    }
-}
+#     tags = {
+#     Name = "Udacity M4 ${count.index + 1}"
+#     }
+# }
 
 resource "aws_iam_role" "iam_for_lambda" {
   name = "iam_for_lambda"
