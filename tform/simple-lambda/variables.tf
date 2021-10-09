@@ -13,11 +13,11 @@ variable "lambda_function_name" {
 variable "vpc_id" {
     description = "Enter the vpc id"
     type = string
-    default = "vpc-0210afa9c070180a0"
+    default = "vpc-XXXXX"
 }
 
 variable "public_subnet" {
     description = "Enter the vpc id"
     type = string
-    default = "subnet-0f41a5571cccfef09"
+    default = "subnet-XXXXX"
 }
