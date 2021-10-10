@@ -62,8 +62,19 @@ resource "aws_iam_policy" "lambda_logging" {
 }
 EOF
 }
+resource "aws_iam_policy" "Dynamo-Db-Table-Access" {
+  name        = "dynamodb_access"
+  path        = "/"
+  description = "IAM policy for DB R-W from a lambda"
 
+  policy = templatefile("policies/dynamodb-lambda.json", {"Table-Name": aws_dynamodb_table.Db-Inventory-Table.arn})
+}
 resource "aws_iam_role_policy_attachment" "lambda_logs" {
   role       = aws_iam_role.iam_for_lambda.name
   policy_arn = aws_iam_policy.lambda_logging.arn
+}
+
+resource "aws_iam_role_policy_attachment" "lambda_dynamodb_policy_attachment" {
+  role       = aws_iam_role.iam_for_lambda.name
+  policy_arn = aws_iam_policy.Dynamo-Db-Table-Access.arn
 }

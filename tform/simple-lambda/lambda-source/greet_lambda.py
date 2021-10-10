@@ -1,22 +1,47 @@
 import os
 import json
 
+import boto3
+from botocore.exceptions import ClientError
+
 def lambda_handler(event, context):
     record = {}
     method = event['httpMethod']
     
-    print ('Event : ', method, event["queryStringParameters"], event["body"])
+    print ('Event : ', method, event["queryStringParameters"])
 
     if method == "POST":
+        requst_body = json.loads(event["body"])
+        dynamodb = boto3.resource('dynamodb')
+        table = dynamodb.Table('Dynamo-DB-Inventory')        
+        
+        response = table.put_item(Item = {
+            "id": requst_body["id"],
+            "manufacturer": requst_body["manufacturer"],
+            "name": requst_body["name"],
+            "releaseDate": requst_body["releaseDate"]
+        })
+
         record = json.dumps({
-                "name": "POST Response",
-                "key": event["body"]
+                "name": "InsertedItem",
+                "key": "OK"
             })
+
     elif method == "GET":
-        record = json.dumps({
-                "name": "GET Response",
-                "key": event["queryStringParameters"]
-            })
+        dynamodb = boto3.resource('dynamodb')
+        table = dynamodb.Table('Dynamo-DB-Inventory')        
+        
+        try:
+            response = table.get_item(Key=event["queryStringParameters"])
+            record = json.dumps({
+                    "name": "GotAKey",
+                    "key": response
+                })            
+        except ClientError as e:
+            record = json.dumps({
+                    "name": "XXXXX",
+                    "key": "Errror reading the key"
+                })                        
 
     return {
         "isBase64Encoded": False,

@@ -195,16 +195,16 @@
           "properties": {
             "name": {
               "type": "string",
-              "example": "ACME Corporation"
+              "example": "Test corp"
             },
             "homePage": {
               "type": "string",
               "format": "url",
-              "example": "https://www.acme-corp.com"
+              "example": "https://www.test.com"
             },
             "phone": {
               "type": "string",
-              "example": "408-867-5309"
+              "example": "XXX-XXX-XXXX"
             }
           }
         }

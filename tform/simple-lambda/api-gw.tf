@@ -27,7 +27,7 @@ resource "aws_api_gateway_stage" "staging" {
 }
 
 resource "aws_lambda_permission" "lambda_permission" {
-  statement_id  = "AllowMyDemoAPIInvoke"
+  statement_id  = "Permission-Invoke-From-ApiGW"
   action        = "lambda:InvokeFunction"
   function_name = var.lambda_function_name
   principal     = "apigateway.amazonaws.com"
