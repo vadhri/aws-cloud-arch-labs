@@ -39,8 +39,8 @@ def lambda_handler(event, context):
                 })            
         except ClientError as e:
             record = json.dumps({
-                    "name": "XXXXX",
-                    "key": "Errror reading the key"
+                    "name": "Error",
+                    "key": {}
                 })                        
 
     return {

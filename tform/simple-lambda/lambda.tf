@@ -38,6 +38,7 @@ resource "aws_lambda_function" "lambda" {
 resource "aws_cloudwatch_log_group" "example" {
   name              = "/aws/lambda/${var.lambda_function_name}"
   retention_in_days = 14
+  kms_key_id = aws_kms_key.Cloudwatch-Logging-Key.arn
 }
 
 resource "aws_iam_policy" "lambda_logging" {

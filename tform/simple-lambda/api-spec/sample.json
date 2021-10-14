@@ -31,6 +31,11 @@
     "paths": {
       "/inventory": {
         "get": {
+          "security": [
+            {
+              "EndpointAuthorizer": []
+            }
+          ],          
             "x-amazon-apigateway-integration": {
                 "httpMethod": "POST",
                 "uri": "${lambda-inventory-get}",
@@ -112,10 +117,16 @@
           }
         },
         "post": {
+          "security": [
+            {
+              "EndpointAuthorizer": []
+            }
+          ],               
             "x-amazon-apigateway-integration": {
                 "httpMethod": "POST",
                 "uri": "${lambda-inventory-get}",
                 "type": "aws_proxy",
+
                 "payloadFormatVersion": "1.0",
                 "responses" : {
                   "2\\d{2}" : {
@@ -158,6 +169,20 @@
       }
     },
     "components": {
+      "securitySchemes": {
+        "EndpointAuthorizer": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header",
+          "x-amazon-apigateway-authtype": "cognito_user_pools",
+          "x-amazon-apigateway-authorizer": {
+            "type": "cognito_user_pools",
+            "providerARNs": [
+              "arn:aws:cognito-idp:${region}:${account_id}:userpool/${user_pool_id}"
+            ]
+          }
+        }
+      },      
       "schemas": {
         "InventoryItem": {
           "required": [
