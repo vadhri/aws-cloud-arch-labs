@@ -1,10 +1,15 @@
 resource "aws_api_gateway_rest_api" "Api-GW" {
-    body = templatefile("api-spec/sample.json", {"lambda-inventory-get": aws_lambda_function.lambda.invoke_arn})
+    body = templatefile("api-spec/sample.json", {
+        "lambda-inventory-get": aws_lambda_function.lambda.invoke_arn
+        "region": var.deploy_region,
+        "account_id": data.aws_caller_identity.current.account_id,
+        "user_pool_id": aws_cognito_user_pool.User-Pool.id
+      })
     name = "Registration-Service"
     
     endpoint_configuration {
       types = ["REGIONAL"]
-      
+
     }
 }
 
