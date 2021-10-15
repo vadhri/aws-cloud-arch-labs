@@ -1,0 +1,13 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+- [ec2] Disable password based authentication for web instance.
+- [ec2] Disable SSH access over internet,
+- [sg] Edit the security group not to allow all traffic in rules.
+- [S3] Enable server side encryption, cross-region replication and SSL for buckets
+- [S3] Remove public access to the secret recipies bucket.
+
+# nano /etc/ssh/sshd_config
+Change the line below to no.
+PasswordAuthentication yes

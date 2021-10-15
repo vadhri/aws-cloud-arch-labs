@@ -1,0 +1,21 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+- EC2 instance role gives access for all actions to all S3 buckets.
+
+  Statement:
+    - Effect: Allow
+      Action: 's3:*'
+      Resource: '*'
+
+- WebAppSG has ingress to all traffic as an add-on rule.
+
+    SecurityGroupIngress:
+    - IpProtocol: -1
+      CidrIp: 0.0.0.0/0
+
+- Public ip address assigned to ec2 running webapp in public subnet and port 22 is exposed.
+
+    - IpProtocol: tcp
+      FromPort: 22
+      ToPort: 22
+      CidrIp: 0.0.0.0/0

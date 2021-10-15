@@ -1,0 +1,44 @@
+
+
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+
+#### 1 Remove All ingress for all traffic in the security group except for port 5000.
+#### 2 Adjust SSH password based login setting.
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+
+Adjust ec2 instance role policy as below to restrict access of buckets to read and only from the public subnet of web app cidr.
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::cand-c3-free-recipes-166517699715",
+                "arn:aws:s3:::cand-c3-free-recipes-166517699715/*"
+            ],
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "10.192.10.0/24"
+                }
+            }
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": "*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "10.192.10.0/24"
+                }
+            }
+        }
+    ]
+}

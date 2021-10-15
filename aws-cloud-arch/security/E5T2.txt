@@ -1,0 +1,39 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+
+Checkov https://www.checkov.io/
+TFLint https://github.com/terraform-linters/tflint
+Terrascan https://github.com/accurics/terrascan
+Chef inspec https://github.com/inspec/inspec
+regula https://github.com/fugue/regula
+cfripper https://github.com/Skyscanner/cfripper
+
+### Example vulnerability
+
+# 1 IAMRoleWildcardActionOnPolicyRule
+Checks for use of wildcard characters in all IAM Role policies (including AssumeRolePolicyDocument) and AWS Managed Policies.
+
+# 2 S3BucketPolicyWildcardActionRule
+Checks for use of the wildcard * character in the Actions of Policy Documents of S3 Bucket Policies. This rule is a subclass of GenericWildcardPolicyRule.
+
+##Scan AMI’s or containers for OS vulnerabilities
+
+clair https://github.com/quay/clair
+anchore-engine https://github.com/anchore/anchore-engine
+trivy https://github.com/aquasecurity/trivy
+
+### Example vulnerability
+
+Operating System Vulnerabilities
+Allowing SSH password login
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+
+AWS config
+Cloud Custodian
+Prowler
+
+### Example vulnerability
+
+continuously monitor the configurations of your resources and evaluate these configurations for potential security weaknesses.
