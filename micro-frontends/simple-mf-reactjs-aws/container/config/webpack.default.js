@@ -5,7 +5,7 @@ module.exports = {
         rules: [
             {
                 test: /\.jsx?$/,
-                use: {
+                use: { 
                     loader: 'babel-loader',
                     options: {
                         presets: [
@@ -15,8 +15,8 @@ module.exports = {
                         plugins: ['@babel/plugin-transform-runtime' ]
                     }
                 },                
-                exclude: /node_modules/
-            },
+                exclude: /node_modules/ 
+            }, 
             {
                 test: /\.m.js$/,
                 exclude: /node_modules/,
