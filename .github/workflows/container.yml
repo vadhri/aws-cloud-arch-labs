@@ -12,15 +12,22 @@ defaults:
     working-directory: micro-frontends/simple-mf-reactjs-aws/container
 
 jobs:
-  build: 
+  deploy:
+    name: Upload to Amazon S3
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
-      - uses: actions/checkout@v2
-      - run: npm install 
-      - run: npm run build_rel
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - uses: chrislennon/action-aws-cli@v1.1
-      - run: aws s3 sync dist s2://${{ secrets.AWS_S3_BUCKET_NAME }}/container/latest
-        env: 
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESSS_KEY }}
+    - name: Configure AWS credentials from Test account
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: arn:aws:iam::166517699715:role/mfe-bucket-hosting-role
+        aws-region: us-east-1
+
+    - name: Copy files to the test website with the AWS CLI
+      run: |
+        aws s3 sync . s3://mfe-bucket-hosting-a1
