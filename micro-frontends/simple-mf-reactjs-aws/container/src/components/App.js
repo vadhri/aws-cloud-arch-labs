@@ -3,7 +3,8 @@ import Render from './Render';
 
 export default () => {
     return <div>
-        <h1>Main menu or others</h1>
+        <hr/>
+        <h1>Main menu</h1>
         <hr/>
         <Render/>
     </div>
