@@ -5,11 +5,11 @@ on:
     branches: 
       - master
     paths:
-      - 'container/**'
+      - 'micro-frontends/simple-mf-reactjs-aws/container/**'
 
 defaults: 
   run:
-    working-directory: container
+    working-directory: micro-frontends/simple-mf-reactjs-aws/container
 
 jobs:
   build: 
