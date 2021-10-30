@@ -18,12 +18,13 @@ jobs:
     permissions:
       id-token: write
       contents: read
+      
     steps:
     - name: Checkout
       uses: actions/checkout@v2
 
     - name: Configure AWS credentials from Test account
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@b8c74de
       with:
         role-to-assume: ${{secrets.AWS_ROLE_TO_ASSUME}}
         aws-region: us-east-1
