@@ -4,8 +4,7 @@ import Header from './Header';
 import { BrowserRouter } from "react-router-dom";
 
 export default () => {
-    return 
-    <BrowserRouter>
+    return <BrowserRouter>
         <div>
             <Header/>
             <Render/>
