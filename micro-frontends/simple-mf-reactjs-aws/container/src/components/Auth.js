@@ -9,8 +9,10 @@ export default () => {
 
     useEffect(() => {
         const { onNavigation } = mount(ref.current, { 
+            initialPath: history.location.pathname,
             onNavigate: ( {pathname: nextPathname} ) => {
                 console.log('App -> Container (onNavigation)', nextPathname);
+
                 const { pathname } = history.location;
 
                 if (pathname !== nextPathname) {
