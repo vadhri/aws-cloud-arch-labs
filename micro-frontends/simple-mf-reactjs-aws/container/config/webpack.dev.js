@@ -13,7 +13,7 @@ const devConfig = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: 'container',
+            name: 'container', 
             remotes: {
                 home: 'home@http://localhost:8080/remoteEntry.js'
             },
