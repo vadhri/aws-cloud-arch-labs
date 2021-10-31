@@ -35,6 +35,8 @@ jobs:
     
     - name: Build container 
       run: npm run build_rel 
+      env:
+        PROD_DOMAIN: ${{secrets.PROD_DOMAIN}}
     
     - name: Copy files to the test website with the AWS CLI
       run: |

@@ -35,7 +35,12 @@ jobs:
     
     - name: Build home 
       run: npm run build_rel 
-    
+      env:
+        PROD_DOMAIN: ${{secrets.PROD_DOMAIN}}
+        
     - name: Copy files to the test website with the AWS CLI
       run: |
         aws s3 sync dist s3://${{secrets.AWS_S3_BUCKET_NAME}}/home/latest
+
+    - name: Invalidate cache invalidation. 
+      run: aws cloudfront create-invalidation --distribution-id ${{secrets.AWS_CF_DISTRIBUTION_ID}} --paths "/home/laest/remoteEntry.js"
