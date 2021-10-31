@@ -1,11 +1,14 @@
 import React from "react";
 import Render from './Render';
+import Header from './Header';
+import { BrowserRouter } from "react-router-dom";
 
 export default () => {
-    return <div>
-        <hr/>
-        <h1>Main menu of Container</h1>
-        <hr/>
-        <Render/>
-    </div>
+    return 
+    <BrowserRouter>
+        <div>
+            <Header/>
+            <Render/>
+        </div>
+    </BrowserRouter>
 };
