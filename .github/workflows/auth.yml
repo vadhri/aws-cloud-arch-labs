@@ -1,0 +1,46 @@
+name: deploy-auth
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'micro-frontends/simple-mf-reactjs-aws/auth/**'
+
+defaults:
+  run:
+    working-directory: micro-frontends/simple-mf-reactjs-aws/auth
+
+jobs:
+  deploy:
+    name: Upload to Amazon S3
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_ACCESS_SECRET_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Install dependencies.
+      run: npm install
+    
+    - name: Build auth 
+      run: npm run build_rel 
+      env:
+        PROD_DOMAIN: ${{secrets.PROD_DOMAIN}}
+
+    - name: Copy files to the test website with the AWS CLI
+      run: |
+        aws s3 sync dist s3://${{secrets.AWS_S3_BUCKET_NAME}}/auth/latest
+
+    - name: Invalidate cache invalidation. 
+      run: aws cloudfront create-invalidation --distribution-id ${{secrets.AWS_CF_DISTRIBUTION_ID}} --paths "/auth/latest/remoteEntry.js"

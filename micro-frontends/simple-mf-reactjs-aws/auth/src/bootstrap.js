@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import { createMemoryHistory } from 'history';
 
-const mount = (ele, { onNavigate }) => {
-    const history = createMemoryHistory();
+import { createMemoryHistory, createBrowserHistory } from 'history';
+
+const mount = (ele, { onNavigate, defaultHistory }) => {
+    const history = defaultHistory || createMemoryHistory();
 
     ReactDOM.render(
         <App history={history}></App>, 
@@ -16,7 +17,6 @@ const mount = (ele, { onNavigate }) => {
     }
 
     return { onNavigation : ({pathname: newPathName}) => {
-        console.log('Container -> App (onNavigation)', newPathName, pathname);
         const { pathname } = history.location;
 
         if (pathname !== newPathName) {
@@ -26,9 +26,9 @@ const mount = (ele, { onNavigate }) => {
 }
 
 if (process.env.NODE_ENV === 'development') {
-    const ele = document.getElementById('test-home-id');
+    const ele = document.getElementById('test-auth-id');
     if (ele) {
-        mount(ele, {})
+        mount(ele, { defaultHistory: createBrowserHistory() });
     }
 }
 
