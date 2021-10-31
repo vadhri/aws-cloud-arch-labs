@@ -31,6 +31,7 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Build container 
+      run: npm install
       run: npm run build_rel 
     
     - name: Copy files to the test website with the AWS CLI
