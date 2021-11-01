@@ -1,0 +1,1662 @@
+[
+  {
+    "cc": "GL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+7646−01840",
+    "tzonecode": "America/Danmarkshavn",
+    "Portion of country covered": "National Park (east coast)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+00:00",
+    "UTC DST offset ±hh:mm": "+00:00",
+    "Notes": ""
+  },
+  {
+    "cc": "GL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+7029−02158",
+    "tzonecode": "America/Scoresbysund",
+    "Portion of country covered": "Scoresbysund/Ittoqqortoormiit",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−01:00",
+    "UTC DST offset ±hh:mm": "+00:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0351−03225",
+    "tzonecode": "America/Noronha",
+    "Portion of country covered": "Atlantic islands",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−02:00",
+    "UTC DST offset ±hh:mm": "−02:00",
+    "Notes": ""
+  },
+  {
+    "cc": "GL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6411−05144",
+    "tzonecode": "America/Godthab",
+    "Portion of country covered": "Greenland (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−02:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4703−05620",
+    "tzonecode": "America/Miquelon",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−02:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2332−04637",
+    "tzonecode": "America/Sao_Paulo",
+    "Portion of country covered": "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−02:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0712−04812",
+    "tzonecode": "America/Araguaina",
+    "Portion of country covered": "Tocantins",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3436−05827",
+    "tzonecode": "America/Argentina/Buenos_Aires",
+    "Portion of country covered": "Buenos Aires (BA, CF)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2828−06547",
+    "tzonecode": "America/Argentina/Catamarca",
+    "Portion of country covered": "Catamarca (CT); Chubut (CH)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Argentina/ComodRivadavia",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Catamarca"
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3124−06411",
+    "tzonecode": "America/Argentina/Cordoba",
+    "Portion of country covered": "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2411−06518",
+    "tzonecode": "America/Argentina/Jujuy",
+    "Portion of country covered": "Jujuy (JY)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2926−06651",
+    "tzonecode": "America/Argentina/La_Rioja",
+    "Portion of country covered": "La Rioja (LR)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3253−06849",
+    "tzonecode": "America/Argentina/Mendoza",
+    "Portion of country covered": "Mendoza (MZ)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−5138−06913",
+    "tzonecode": "America/Argentina/Rio_Gallegos",
+    "Portion of country covered": "Santa Cruz (SC)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2447−06525",
+    "tzonecode": "America/Argentina/Salta",
+    "Portion of country covered": "Salta (SA, LP, NQ, RN)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3132−06831",
+    "tzonecode": "America/Argentina/San_Juan",
+    "Portion of country covered": "San Juan (SJ)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3319−06621",
+    "tzonecode": "America/Argentina/San_Luis",
+    "Portion of country covered": "San Luis (SL)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2649−06513",
+    "tzonecode": "America/Argentina/Tucuman",
+    "Portion of country covered": "Tucuman (TM)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−5448−06818",
+    "tzonecode": "America/Argentina/Ushuaia",
+    "Portion of country covered": "Tierra del Fuego (TF)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−1259−03831",
+    "tzonecode": "America/Bahia",
+    "Portion of country covered": "Bahia",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0127−04829",
+    "tzonecode": "America/Belem",
+    "Portion of country covered": "Para (east); Amapa",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Buenos_Aires",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Buenos_Aires"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Catamarca",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Catamarca"
+  },
+  {
+    "cc": "GF",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0456−05220",
+    "tzonecode": "America/Cayenne",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Cordoba",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Cordoba"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0343−03830",
+    "tzonecode": "America/Fortaleza",
+    "Portion of country covered": "Brazil (northeast: MA, PI, CE, RN, PB)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Jujuy",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Jujuy"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0940−03543",
+    "tzonecode": "America/Maceio",
+    "Portion of country covered": "Alagoas, Sergipe",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Mendoza",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Mendoza"
+  },
+  {
+    "cc": "UY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3453−05611",
+    "tzonecode": "America/Montevideo",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0550−05510",
+    "tzonecode": "America/Paramaribo",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−5309−07055",
+    "tzonecode": "America/Punta_Arenas",
+    "Portion of country covered": "Region of Magallanes",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Magallanes Region"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0803−03454",
+    "tzonecode": "America/Recife",
+    "Portion of country covered": "Pernambuco",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Rosario",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": "Link to America/Argentina/Cordoba"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0226−05452",
+    "tzonecode": "America/Santarem",
+    "Portion of country covered": "Para (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4734−05243",
+    "tzonecode": "America/St_Johns",
+    "Portion of country covered": "Newfoundland; Labrador (southeast)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−03:30",
+    "UTC DST offset ±hh:mm": "−02:30",
+    "Notes": ""
+  },
+  {
+    "cc": "PY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2516−05740",
+    "tzonecode": "America/Asuncion",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−2027−05437",
+    "tzonecode": "America/Campo_Grande",
+    "Portion of country covered": "Mato Grosso do Sul",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−1535−05605",
+    "tzonecode": "America/Cuiaba",
+    "Portion of country covered": "Mato Grosso",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4612−05957",
+    "tzonecode": "America/Glace_Bay",
+    "Portion of country covered": "Atlantic - NS (Cape Breton)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5320−06025",
+    "tzonecode": "America/Goose_Bay",
+    "Portion of country covered": "Atlantic - Labrador (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4439−06336",
+    "tzonecode": "America/Halifax",
+    "Portion of country covered": "Atlantic - NS (most areas); PE",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4606−06447",
+    "tzonecode": "America/Moncton",
+    "Portion of country covered": "Atlantic - New Brunswick",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−3327−07040",
+    "tzonecode": "America/Santiago",
+    "Portion of country covered": "Chile (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "GL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+7634−06847",
+    "tzonecode": "America/Thule",
+    "Portion of country covered": "Thule/Pituffik",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AI",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1812−06304",
+    "tzonecode": "America/Anguilla",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "AG",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1703−06148",
+    "tzonecode": "America/Antigua",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "AW",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1230−06958",
+    "tzonecode": "America/Aruba",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Curacao"
+  },
+  {
+    "cc": "BB",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1306−05937",
+    "tzonecode": "America/Barbados",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5125−05707",
+    "tzonecode": "America/Blanc-Sablon",
+    "Portion of country covered": "AST - QC (Lower North Shore)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0249−06040",
+    "tzonecode": "America/Boa_Vista",
+    "Portion of country covered": "Roraima",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "VE",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1030−06656",
+    "tzonecode": "America/Caracas",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CW",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1211−06900",
+    "tzonecode": "America/Curacao",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "DM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1518−06124",
+    "tzonecode": "America/Dominica",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "GD",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1203−06145",
+    "tzonecode": "America/Grenada",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "GP",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1614−06132",
+    "tzonecode": "America/Guadeloupe",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "GY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0648−05810",
+    "tzonecode": "America/Guyana",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BQ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+120903−0681636",
+    "tzonecode": "America/Kralendijk",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Curacao"
+  },
+  {
+    "cc": "BO",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−1630−06809",
+    "tzonecode": "America/La_Paz",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+180305−0630250",
+    "tzonecode": "America/Lower_Princes",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Curacao"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0308−06001",
+    "tzonecode": "America/Manaus",
+    "Portion of country covered": "Amazonas (east)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MF",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1804−06305",
+    "tzonecode": "America/Marigot",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "MQ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1436−06105",
+    "tzonecode": "America/Martinique",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MS",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1643−06213",
+    "tzonecode": "America/Montserrat",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "TT",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1039−06131",
+    "tzonecode": "America/Port_of_Spain",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0846−06354",
+    "tzonecode": "America/Porto_Velho",
+    "Portion of country covered": "Rondonia",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+182806−0660622",
+    "tzonecode": "America/Puerto_Rico",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "DO",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1828−06954",
+    "tzonecode": "America/Santo_Domingo",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1753−06251",
+    "tzonecode": "America/St_Barthelemy",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "KN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1718−06243",
+    "tzonecode": "America/St_Kitts",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "LC",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1401−06100",
+    "tzonecode": "America/St_Lucia",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "VI",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1821−06456",
+    "tzonecode": "America/St_Thomas",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "VC",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1309−06114",
+    "tzonecode": "America/St_Vincent",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "VG",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1827−06437",
+    "tzonecode": "America/Tortola",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Virgin",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−04:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Port_of_Spain"
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+421953−0830245",
+    "tzonecode": "America/Detroit",
+    "Portion of country covered": "Eastern - MI (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Fort_Wayne",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Indiana/Indianapolis"
+  },
+  {
+    "cc": "TC",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2128−07108",
+    "tzonecode": "America/Grand_Turk",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2308−08222",
+    "tzonecode": "America/Havana",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+394606−0860929",
+    "tzonecode": "America/Indiana/Indianapolis",
+    "Portion of country covered": "Eastern - IN (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+382232−0862041",
+    "tzonecode": "America/Indiana/Marengo",
+    "Portion of country covered": "Eastern - IN (Crawford)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+382931−0871643",
+    "tzonecode": "America/Indiana/Petersburg",
+    "Portion of country covered": "Eastern - IN (Pike)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+384452−0850402",
+    "tzonecode": "America/Indiana/Vevay",
+    "Portion of country covered": "Eastern - IN (Switzerland)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+384038−0873143",
+    "tzonecode": "America/Indiana/Vincennes",
+    "Portion of country covered": "Eastern - IN (Da, Du, K, Mn)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+410305−0863611",
+    "tzonecode": "America/Indiana/Winamac",
+    "Portion of country covered": "Eastern - IN (Pulaski)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Indianapolis",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Indiana/Indianapolis"
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6344−06828",
+    "tzonecode": "America/Iqaluit",
+    "Portion of country covered": "Eastern - NU (most east areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+381515−0854534",
+    "tzonecode": "America/Kentucky/Louisville",
+    "Portion of country covered": "Eastern - KY (Louisville area)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+364947−0845057",
+    "tzonecode": "America/Kentucky/Monticello",
+    "Portion of country covered": "Eastern - KY (Wayne)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Louisville",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Kentucky/Louisville"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Montreal",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": "Link to America/Toronto"
+  },
+  {
+    "cc": "BS",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2505−07721",
+    "tzonecode": "America/Nassau",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+404251−0740023",
+    "tzonecode": "America/New_York",
+    "Portion of country covered": "Eastern (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4901−08816",
+    "tzonecode": "America/Nipigon",
+    "Portion of country covered": "Eastern - ON, QC (no DST 1967−73)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6608−06544",
+    "tzonecode": "America/Pangnirtung",
+    "Portion of country covered": "Eastern - NU (Pangnirtung)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "HT",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1832−07220",
+    "tzonecode": "America/Port-au-Prince",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4823−08915",
+    "tzonecode": "America/Thunder_Bay",
+    "Portion of country covered": "Eastern - ON (Thunder Bay)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4339−07923",
+    "tzonecode": "America/Toronto",
+    "Portion of country covered": "Eastern - ON, QC (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+484531−0913718",
+    "tzonecode": "America/Atikokan",
+    "Portion of country covered": "EST - ON (Atikokan); NU (Coral H)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CO",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0436−07405",
+    "tzonecode": "America/Bogota",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2105−08646",
+    "tzonecode": "America/Cancun",
+    "Portion of country covered": "Eastern Standard Time - Quintana Roo",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1918−08123",
+    "tzonecode": "America/Cayman",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": "Link to America/Panama"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Coral_Harbour",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": "Link to America/Atikokan"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0640−06952",
+    "tzonecode": "America/Eirunepe",
+    "Portion of country covered": "Amazonas (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "EC",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0210−07950",
+    "tzonecode": "America/Guayaquil",
+    "Portion of country covered": "Ecuador (mainland)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "JM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+175805−0764736",
+    "tzonecode": "America/Jamaica",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PE",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−1203−07703",
+    "tzonecode": "America/Lima",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0858−07932",
+    "tzonecode": "America/Panama",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Porto_Acre",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": "Link to America/Rio_Branco"
+  },
+  {
+    "cc": "BR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0958−06748",
+    "tzonecode": "America/Rio_Branco",
+    "Portion of country covered": "Acre",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−05:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2048−10515",
+    "tzonecode": "America/Bahia_Banderas",
+    "Portion of country covered": "Central Time - Bahia de Banderas",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4151−08739",
+    "tzonecode": "America/Chicago",
+    "Portion of country covered": "Central (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+411745−0863730",
+    "tzonecode": "America/Indiana/Knox",
+    "Portion of country covered": "Central - IN (Starke)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+375711−0864541",
+    "tzonecode": "America/Indiana/Tell_City",
+    "Portion of country covered": "Central - IN (Perry)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Knox_IN",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": "Link to America/Indiana/Knox"
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2550−09730",
+    "tzonecode": "America/Matamoros",
+    "Portion of country covered": "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+450628−0873651",
+    "tzonecode": "America/Menominee",
+    "Portion of country covered": "Central - MI (Wisconsin border)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2058−08937",
+    "tzonecode": "America/Merida",
+    "Portion of country covered": "Central Time - Campeche, Yucatan",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1924−09909",
+    "tzonecode": "America/Mexico_City",
+    "Portion of country covered": "Central Time",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2540−10019",
+    "tzonecode": "America/Monterrey",
+    "Portion of country covered": "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+471551−1014640",
+    "tzonecode": "America/North_Dakota/Beulah",
+    "Portion of country covered": "Central - ND (Mercer)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+470659−1011757",
+    "tzonecode": "America/North_Dakota/Center",
+    "Portion of country covered": "Central - ND (Oliver)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+465042−1012439",
+    "tzonecode": "America/North_Dakota/New_Salem",
+    "Portion of country covered": "Central - ND (Morton rural)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4843−09434",
+    "tzonecode": "America/Rainy_River",
+    "Portion of country covered": "Central - ON (Rainy R, Ft Frances)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6249−0920459",
+    "tzonecode": "America/Rankin_Inlet",
+    "Portion of country covered": "Central - NU (central)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+744144−0944945",
+    "tzonecode": "America/Resolute",
+    "Portion of country covered": "Central - NU (Resolute)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4953−09709",
+    "tzonecode": "America/Winnipeg",
+    "Portion of country covered": "Central - ON (west); Manitoba",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1730−08812",
+    "tzonecode": "America/Belize",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+0956−08405",
+    "tzonecode": "America/Costa_Rica",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SV",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1342−08912",
+    "tzonecode": "America/El_Salvador",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "GT",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1438−09031",
+    "tzonecode": "America/Guatemala",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "NI",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1209−08617",
+    "tzonecode": "America/Managua",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5024−10439",
+    "tzonecode": "America/Regina",
+    "Portion of country covered": "CST - SK (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5017−10750",
+    "tzonecode": "America/Swift_Current",
+    "Portion of country covered": "CST - SK (midwest)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "HN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+1406−08713",
+    "tzonecode": "America/Tegucigalpa",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−06:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+433649−1161209",
+    "tzonecode": "America/Boise",
+    "Portion of country covered": "Mountain - ID (south); OR (east)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+690650−1050310",
+    "tzonecode": "America/Cambridge_Bay",
+    "Portion of country covered": "Mountain - NU (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2838−10605",
+    "tzonecode": "America/Chihuahua",
+    "Portion of country covered": "Mountain Time - Chihuahua (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+394421−1045903",
+    "tzonecode": "America/Denver",
+    "Portion of country covered": "Mountain (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5333−11328",
+    "tzonecode": "America/Edmonton",
+    "Portion of country covered": "Mountain - AB; BC (E); SK (W)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+682059−13343",
+    "tzonecode": "America/Inuvik",
+    "Portion of country covered": "Mountain - NT (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2313−10625",
+    "tzonecode": "America/Mazatlan",
+    "Portion of country covered": "Mountain Time - Baja California Sur, Nayarit, Sinaloa",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2934−10425",
+    "tzonecode": "America/Ojinaga",
+    "Portion of country covered": "Mountain Time US - Chihuahua (US border)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Shiprock",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": "Link to America/Denver"
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6227−11421",
+    "tzonecode": "America/Yellowknife",
+    "Portion of country covered": "Mountain - NT (central)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4906−11631",
+    "tzonecode": "America/Creston",
+    "Portion of country covered": "MST - BC (Creston)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5946−12014",
+    "tzonecode": "America/Dawson_Creek",
+    "Portion of country covered": "MST - BC (Dawson Cr, Ft St John)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5848−12242",
+    "tzonecode": "America/Fort_Nelson",
+    "Portion of country covered": "MST - BC (Ft Nelson)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+2904−11058",
+    "tzonecode": "America/Hermosillo",
+    "Portion of country covered": "Mountain Standard Time - Sonora",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+332654−1120424",
+    "tzonecode": "America/Phoenix",
+    "Portion of country covered": "MST - Arizona (except Navajo)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−07:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6404−13925",
+    "tzonecode": "America/Dawson",
+    "Portion of country covered": "Pacific - Yukon (north)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Ensenada",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": "Link to America/Tijuana"
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+340308−1181434",
+    "tzonecode": "America/Los_Angeles",
+    "Portion of country covered": "Pacific",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Santa_Isabel",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": "Link to America/Tijuana"
+  },
+  {
+    "cc": "MX",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+3232−11701",
+    "tzonecode": "America/Tijuana",
+    "Portion of country covered": "Pacific Time US - Baja California",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4916−12307",
+    "tzonecode": "America/Vancouver",
+    "Portion of country covered": "Pacific - BC (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+6043−13503",
+    "tzonecode": "America/Whitehorse",
+    "Portion of country covered": "Pacific - Yukon (south)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−08:00",
+    "UTC DST offset ±hh:mm": "−07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+611305−1495401",
+    "tzonecode": "America/Anchorage",
+    "Portion of country covered": "Alaska (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+581807−1342511",
+    "tzonecode": "America/Juneau",
+    "Portion of country covered": "Alaska - Juneau area",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+550737−1313435",
+    "tzonecode": "America/Metlakatla",
+    "Portion of country covered": "Alaska - Annette Island",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+643004−1652423",
+    "tzonecode": "America/Nome",
+    "Portion of country covered": "Alaska (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+571035−1351807",
+    "tzonecode": "America/Sitka",
+    "Portion of country covered": "Alaska - Sitka area",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+593249−1394338",
+    "tzonecode": "America/Yakutat",
+    "Portion of country covered": "Alaska - Yakutat",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−09:00",
+    "UTC DST offset ±hh:mm": "−08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "US",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+515248−1763929",
+    "tzonecode": "America/Adak",
+    "Portion of country covered": "Aleutian Islands",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "−10:00",
+    "UTC DST offset ±hh:mm": "−09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "America/Atka",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "−10:00",
+    "UTC DST offset ±hh:mm": "−09:00",
+    "Notes": "Link to America/Adak"
+  }
+]

@@ -1,0 +1,982 @@
+[
+  {
+    "cc": "CY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6864",
+    "tzonecode": "Asia/Famagusta",
+    "Portion of country covered": "Northern Cyprus",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+02:00",
+    "Notes": ""
+  },
+  {
+    "cc": "JO",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6713",
+    "tzonecode": "Asia/Amman",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "LB",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6883",
+    "tzonecode": "Asia/Beirut",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6948",
+    "tzonecode": "Asia/Damascus",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PS",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6558",
+    "tzonecode": "Asia/Gaza",
+    "Portion of country covered": "Gaza Strip",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PS",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "353674",
+    "tzonecode": "Asia/Hebron",
+    "Portion of country covered": "West Bank",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "IL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "665976",
+    "tzonecode": "Asia/Jerusalem",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Tel_Aviv",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": "Link to Asia/Jerusalem"
+  },
+  {
+    "cc": "CY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6832",
+    "tzonecode": "Asia/Nicosia",
+    "Portion of country covered": "Cyprus (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+02:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "YE",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5757",
+    "tzonecode": "Asia/Aden",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": "Link to Asia/Riyadh"
+  },
+  {
+    "cc": "IQ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7746",
+    "tzonecode": "Asia/Baghdad",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "BH",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7658",
+    "tzonecode": "Asia/Bahrain",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": "Link to Asia/Qatar"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Istanbul",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": "Link to Europe/Istanbul"
+  },
+  {
+    "cc": "KW",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7679",
+    "tzonecode": "Asia/Kuwait",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": "Link to Asia/Riyadh"
+  },
+  {
+    "cc": "QA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7649",
+    "tzonecode": "Asia/Qatar",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7081",
+    "tzonecode": "Asia/Riyadh",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+03:00",
+    "UTC DST offset ±hh:mm": "+03:00",
+    "Notes": ""
+  },
+  {
+    "cc": "IR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8666",
+    "tzonecode": "Asia/Tehran",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+03:30",
+    "UTC DST offset ±hh:mm": "+04:30",
+    "Notes": ""
+  },
+  {
+    "cc": "AZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8974",
+    "tzonecode": "Asia/Baku",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+04:00",
+    "UTC DST offset ±hh:mm": "+04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AE",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8036",
+    "tzonecode": "Asia/Dubai",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+04:00",
+    "UTC DST offset ±hh:mm": "+04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "OM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8171",
+    "tzonecode": "Asia/Muscat",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+04:00",
+    "UTC DST offset ±hh:mm": "+04:00",
+    "Notes": "Link to Asia/Dubai"
+  },
+  {
+    "cc": "GE",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8592",
+    "tzonecode": "Asia/Tbilisi",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+04:00",
+    "UTC DST offset ±hh:mm": "+04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8441",
+    "tzonecode": "Asia/Yerevan",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+04:00",
+    "UTC DST offset ±hh:mm": "+04:00",
+    "Notes": ""
+  },
+  {
+    "cc": "AF",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10343",
+    "tzonecode": "Asia/Kabul",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+04:30",
+    "UTC DST offset ±hh:mm": "+04:30",
+    "Notes": ""
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9447",
+    "tzonecode": "Asia/Aqtau",
+    "Portion of country covered": "Mangghystau/Mankistau",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10727",
+    "tzonecode": "Asia/Aqtobe",
+    "Portion of country covered": "Aqtobe/Aktobe",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "TM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9580",
+    "tzonecode": "Asia/Ashgabat",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Ashkhabad",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": "Link to Asia/Ashgabat"
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9863",
+    "tzonecode": "Asia/Atyrau",
+    "Portion of country covered": "Atyrau/Atirau/Gur'yev",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "TJ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10683",
+    "tzonecode": "Asia/Dushanbe",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PK",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9155",
+    "tzonecode": "Asia/Karachi",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10234",
+    "tzonecode": "Asia/Oral",
+    "Portion of country covered": "West Kazakhstan",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10976",
+    "tzonecode": "Asia/Qyzylorda",
+    "Portion of country covered": "Qyzylorda/Kyzylorda/Kzyl-Orda",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "UZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10588",
+    "tzonecode": "Asia/Samarkand",
+    "Portion of country covered": "Uzbekistan (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "UZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11038",
+    "tzonecode": "Asia/Tashkent",
+    "Portion of country covered": "Uzbekistan (east)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11687",
+    "tzonecode": "Asia/Yekaterinburg",
+    "Portion of country covered": "MSK+02 - Urals",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:00",
+    "UTC DST offset ±hh:mm": "+05:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Calcutta",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+05:30",
+    "UTC DST offset ±hh:mm": "+05:30",
+    "Notes": "Link to Asia/Kolkata"
+  },
+  {
+    "cc": "LK",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8607",
+    "tzonecode": "Asia/Colombo",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:30",
+    "UTC DST offset ±hh:mm": "+05:30",
+    "Notes": ""
+  },
+  {
+    "cc": "IN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11054",
+    "tzonecode": "Asia/Kolkata",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:30",
+    "UTC DST offset ±hh:mm": "+05:30",
+    "Notes": "Note: Different zones in history, see Time in India."
+  },
+  {
+    "cc": "NP",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11262",
+    "tzonecode": "Asia/Kathmandu",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+05:45",
+    "UTC DST offset ±hh:mm": "+05:45",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Katmandu",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+05:45",
+    "UTC DST offset ±hh:mm": "+05:45",
+    "Notes": "Link to Asia/Kathmandu"
+  },
+  {
+    "cc": "KZ",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11972",
+    "tzonecode": "Asia/Almaty",
+    "Portion of country covered": "Kazakhstan (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KG",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11690",
+    "tzonecode": "Asia/Bishkek",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Dacca",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": "Link to Asia/Dhaka"
+  },
+  {
+    "cc": "BD",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11368",
+    "tzonecode": "Asia/Dhaka",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Kashgar",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": "Link to Asia/Urumqi[note 1]"
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "12824",
+    "tzonecode": "Asia/Omsk",
+    "Portion of country covered": "MSK+03 - Omsk",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Thimbu",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": "Link to Asia/Thimphu"
+  },
+  {
+    "cc": "BT",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11667",
+    "tzonecode": "Asia/Thimphu",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13083",
+    "tzonecode": "Asia/Urumqi",
+    "Portion of country covered": "Xinjiang Time",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:00",
+    "UTC DST offset ±hh:mm": "+06:00",
+    "Notes": "The Asia/Urumqi entry in the tz database reflected the use of Xinjiang Time by part of the local population. Consider using Asia/Shanghai for Beijing Time if that is preferred."
+  },
+  {
+    "cc": "MM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11257",
+    "tzonecode": "Asia/Rangoon",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+06:30",
+    "UTC DST offset ±hh:mm": "+06:30",
+    "Notes": "Link to Asia/Yangon"
+  },
+  {
+    "cc": "MM",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11257",
+    "tzonecode": "Asia/Yangon",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+06:30",
+    "UTC DST offset ±hh:mm": "+06:30",
+    "Notes": ""
+  },
+  {
+    "cc": "TH",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11376",
+    "tzonecode": "Asia/Bangkok",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13667",
+    "tzonecode": "Asia/Barnaul",
+    "Portion of country covered": "MSK+04 - Altai",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "VN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11685",
+    "tzonecode": "Asia/Ho_Chi_Minh",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13940",
+    "tzonecode": "Asia/Hovd",
+    "Portion of country covered": "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "ID",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0610+10648",
+    "tzonecode": "Asia/Jakarta",
+    "Portion of country covered": "Java, Sumatra",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "14851",
+    "tzonecode": "Asia/Krasnoyarsk",
+    "Portion of country covered": "MSK+04 - Krasnoyarsk area",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "14052",
+    "tzonecode": "Asia/Novokuznetsk",
+    "Portion of country covered": "MSK+04 - Kemerovo",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13757",
+    "tzonecode": "Asia/Novosibirsk",
+    "Portion of country covered": "MSK+04 - Novosibirsk",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KH",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11588",
+    "tzonecode": "Asia/Phnom_Penh",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": "Link to Asia/Bangkok"
+  },
+  {
+    "cc": "ID",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0002+10920",
+    "tzonecode": "Asia/Pontianak",
+    "Portion of country covered": "Borneo (west, central)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Saigon",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": "Link to Asia/Ho_Chi_Minh"
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "14088",
+    "tzonecode": "Asia/Tomsk",
+    "Portion of country covered": "MSK+04 - Tomsk",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": ""
+  },
+  {
+    "cc": "LA",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11994",
+    "tzonecode": "Asia/Vientiane",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+07:00",
+    "UTC DST offset ±hh:mm": "+07:00",
+    "Notes": "Link to Asia/Bangkok"
+  },
+  {
+    "cc": "BN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11911",
+    "tzonecode": "Asia/Brunei",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "16234",
+    "tzonecode": "Asia/Choibalsan",
+    "Portion of country covered": "Dornod, Sukhbaatar",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Chongqing",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Shanghai"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Chungking",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Shanghai"
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Harbin",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Shanghai"
+  },
+  {
+    "cc": "HK",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13626",
+    "tzonecode": "Asia/Hong_Kong",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "15636",
+    "tzonecode": "Asia/Irkutsk",
+    "Portion of country covered": "MSK+05 - Irkutsk, Buryatia",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10452",
+    "tzonecode": "Asia/Kuala_Lumpur",
+    "Portion of country covered": "Malaysia (peninsula)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "MY",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "11153",
+    "tzonecode": "Asia/Kuching",
+    "Portion of country covered": "Sabah, Sarawak",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Macao",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Macau"
+  },
+  {
+    "cc": "MO",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13549",
+    "tzonecode": "Asia/Macau",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "ID",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0507+11924",
+    "tzonecode": "Asia/Makassar",
+    "Portion of country covered": "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "PH",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "13535",
+    "tzonecode": "Asia/Manila",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "CN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "15242",
+    "tzonecode": "Asia/Shanghai",
+    "Portion of country covered": "Beijing Time",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "SG",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10468",
+    "tzonecode": "Asia/Singapore",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "TW",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "14633",
+    "tzonecode": "Asia/Taipei",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Ujung_Pandang",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Makassar"
+  },
+  {
+    "cc": "MN",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "15408",
+    "tzonecode": "Asia/Ulaanbaatar",
+    "Portion of country covered": "Mongolia (most areas)",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": ""
+  },
+  {
+    "cc": "",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+    "tzonecode": "Asia/Ulan_Bator",
+    "Portion of country covered": "",
+    "Status": "Alias",
+    "UTC offset ±hh:mm": "+08:00",
+    "UTC DST offset ±hh:mm": "+08:00",
+    "Notes": "Link to Asia/Ulaanbaatar"
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "16531",
+    "tzonecode": "Asia/Chita",
+    "Portion of country covered": "MSK+06 - Zabaykalsky",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "TL",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0833+12535",
+    "tzonecode": "Asia/Dili",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "ID",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "−0232+14042",
+    "tzonecode": "Asia/Jayapura",
+    "Portion of country covered": "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "1977237",
+    "tzonecode": "Asia/Khandyga",
+    "Portion of country covered": "MSK+06 - Tomponsky, Ust-Maysky",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KP",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "16446",
+    "tzonecode": "Asia/Pyongyang",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "KR",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "16391",
+    "tzonecode": "Asia/Seoul",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "JP",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "1748357",
+    "tzonecode": "Asia/Tokyo",
+    "Portion of country covered": "",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "19140",
+    "tzonecode": "Asia/Yakutsk",
+    "Portion of country covered": "MSK+06 - Lena River",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+09:00",
+    "UTC DST offset ±hh:mm": "+09:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "2074673",
+    "tzonecode": "Asia/Ust-Nera",
+    "Portion of country covered": "MSK+07 - Oymyakonsky",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+10:00",
+    "UTC DST offset ±hh:mm": "+10:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "17466",
+    "tzonecode": "Asia/Vladivostok",
+    "Portion of country covered": "MSK+07 - Amur River",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+10:00",
+    "UTC DST offset ±hh:mm": "+10:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "20982",
+    "tzonecode": "Asia/Magadan",
+    "Portion of country covered": "MSK+08 - Magadan",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+11:00",
+    "UTC DST offset ±hh:mm": "+11:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "18900",
+    "tzonecode": "Asia/Sakhalin",
+    "Portion of country covered": "MSK+08 - Sakhalin Island",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+11:00",
+    "UTC DST offset ±hh:mm": "+11:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "22071",
+    "tzonecode": "Asia/Srednekolymsk",
+    "Portion of country covered": "MSK+08 - Sakha (E); North Kuril Is",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+11:00",
+    "UTC DST offset ±hh:mm": "+11:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "24174",
+    "tzonecode": "Asia/Anadyr",
+    "Portion of country covered": "MSK+09 - Bering Sea",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+12:00",
+    "UTC DST offset ±hh:mm": "+12:00",
+    "Notes": ""
+  },
+  {
+    "cc": "RU",
+    "Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "21140",
+    "tzonecode": "Asia/Kamchatka",
+    "Portion of country covered": "MSK+09 - Kamchatka",
+    "Status": "Canonical",
+    "UTC offset ±hh:mm": "+12:00",
+    "UTC DST offset ±hh:mm": "+12:00",
+    "Notes": ""
+  }
+]

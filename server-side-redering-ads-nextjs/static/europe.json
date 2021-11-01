@@ -1,0 +1,622 @@
+[
+	{
+		"cc": "",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+		"tzonecode": "Europe/Belfast",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": "Link to Europe/London"
+	},
+	{
+		"cc": "IE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5320−00615",
+		"tzonecode": "Europe/Dublin",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": ""
+	},
+	{
+		"cc": "GG",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+492717−0023210",
+		"tzonecode": "Europe/Guernsey",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": "Link to Europe/London"
+	},
+	{
+		"cc": "IM",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+5409−00428",
+		"tzonecode": "Europe/Isle_of_Man",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": "Link to Europe/London"
+	},
+	{
+		"cc": "JE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+491101−0020624",
+		"tzonecode": "Europe/Jersey",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": "Link to Europe/London"
+	},
+	{
+		"cc": "PT",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+3843−00908",
+		"tzonecode": "Europe/Lisbon",
+		"Portion of country covered": "Portugal (mainland)",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": ""
+	},
+	{
+		"cc": "GB",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+513030−0000731",
+		"tzonecode": "Europe/London",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+00:00",
+		"UTC DST offset ±hh:mm": "+01:00",
+		"Notes": ""
+	},
+	{
+		"cc": "NL",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5676",
+		"tzonecode": "Europe/Amsterdam",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "AD",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "4361",
+		"tzonecode": "Europe/Andorra",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RS",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6480",
+		"tzonecode": "Europe/Belgrade",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "DE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6552",
+		"tzonecode": "Europe/Berlin",
+		"Portion of country covered": "Germany (most areas)",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "In 1945, the Trizone did not follow Berlin's switch to DST, see Time in Germany"
+	},
+	{
+		"cc": "SK",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6516",
+		"tzonecode": "Europe/Bratislava",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Prague"
+	},
+	{
+		"cc": "BE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5470",
+		"tzonecode": "Europe/Brussels",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "HU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6635",
+		"tzonecode": "Europe/Budapest",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "DE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5583",
+		"tzonecode": "Europe/Busingen",
+		"Portion of country covered": "Büsingen am Hochrhein",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Zurich"
+	},
+	{
+		"cc": "DK",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6775",
+		"tzonecode": "Europe/Copenhagen",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "GI",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+3608−00521",
+		"tzonecode": "Europe/Gibraltar",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "SI",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6034",
+		"tzonecode": "Europe/Ljubljana",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Belgrade"
+	},
+	{
+		"cc": "LU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5545",
+		"tzonecode": "Europe/Luxembourg",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "ES",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "+4024−00341",
+		"tzonecode": "Europe/Madrid",
+		"Portion of country covered": "Spain (mainland)",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "MT",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "4985",
+		"tzonecode": "Europe/Malta",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "MC",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5065",
+		"tzonecode": "Europe/Monaco",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "NO",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7000",
+		"tzonecode": "Europe/Oslo",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "FR",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5072",
+		"tzonecode": "Europe/Paris",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "ME",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6142",
+		"tzonecode": "Europe/Podgorica",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Belgrade"
+	},
+	{
+		"cc": "CZ",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6431",
+		"tzonecode": "Europe/Prague",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "IT",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5383",
+		"tzonecode": "Europe/Rome",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "SM",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5583",
+		"tzonecode": "Europe/San_Marino",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Rome"
+	},
+	{
+		"cc": "BA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6177",
+		"tzonecode": "Europe/Sarajevo",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Belgrade"
+	},
+	{
+		"cc": "MK",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6285",
+		"tzonecode": "Europe/Skopje",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Belgrade"
+	},
+	{
+		"cc": "SE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7723",
+		"tzonecode": "Europe/Stockholm",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "AL",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6070",
+		"tzonecode": "Europe/Tirane",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "LI",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5640",
+		"tzonecode": "Europe/Vaduz",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Zurich"
+	},
+	{
+		"cc": "VA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "538119",
+		"tzonecode": "Europe/Vatican",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Rome"
+	},
+	{
+		"cc": "AT",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6433",
+		"tzonecode": "Europe/Vienna",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "HR",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6106",
+		"tzonecode": "Europe/Zagreb",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": "Link to Europe/Belgrade"
+	},
+	{
+		"cc": "CH",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "5555",
+		"tzonecode": "Europe/Zurich",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+01:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "GR",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6101",
+		"tzonecode": "Europe/Athens",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RO",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7032",
+		"tzonecode": "Europe/Bucharest",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "MD",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7550",
+		"tzonecode": "Europe/Chisinau",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "FI",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8468",
+		"tzonecode": "Europe/Helsinki",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7473",
+		"tzonecode": "Europe/Kaliningrad",
+		"Portion of country covered": "MSK−01 - Kaliningrad",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+02:00",
+		"Notes": ""
+	},
+	{
+		"cc": "UA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8057",
+		"tzonecode": "Europe/Kiev",
+		"Portion of country covered": "Ukraine (most areas)",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "AX",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7963",
+		"tzonecode": "Europe/Mariehamn",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": "Link to Europe/Helsinki"
+	},
+	{
+		"cc": "LV",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8063",
+		"tzonecode": "Europe/Riga",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "BG",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6560",
+		"tzonecode": "Europe/Sofia",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "EE",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8370",
+		"tzonecode": "Europe/Tallinn",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "",
+		"tzonecode": "Europe/Tiraspol",
+		"Portion of country covered": "",
+		"Status": "Alias",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": "Link to Europe/Chisinau"
+	},
+	{
+		"cc": "UA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7055",
+		"tzonecode": "Europe/Uzhgorod",
+		"Portion of country covered": "Ruthenia",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "LT",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7960",
+		"tzonecode": "Europe/Vilnius",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "PL",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7315",
+		"tzonecode": "Europe/Warsaw",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "UA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8260",
+		"tzonecode": "Europe/Zaporozhye",
+		"Portion of country covered": "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+02:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "TR",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "6959",
+		"tzonecode": "Europe/Istanbul",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+03:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10775",
+		"tzonecode": "Europe/Kirov",
+		"Portion of country covered": "MSK+00 - Kirov",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+03:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "BY",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "8088",
+		"tzonecode": "Europe/Minsk",
+		"Portion of country covered": "",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+03:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "928225",
+		"tzonecode": "Europe/Moscow",
+		"Portion of country covered": "MSK+00 - Moscow area",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+03:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": ""
+	},
+	{
+		"cc": "UA",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "7863",
+		"tzonecode": "Europe/Simferopol",
+		"Portion of country covered": "Crimea",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+03:00",
+		"UTC DST offset ±hh:mm": "+03:00",
+		"Notes": "Disputed - Reflects data in the TZDB.[note 2]"
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9424",
+		"tzonecode": "Europe/Astrakhan",
+		"Portion of country covered": "MSK+01 - Astrakhan",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+04:00",
+		"UTC DST offset ±hh:mm": "+04:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10321",
+		"tzonecode": "Europe/Samara",
+		"Portion of country covered": "MSK+01 - Samara, Udmurtia",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+04:00",
+		"UTC DST offset ±hh:mm": "+04:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9736",
+		"tzonecode": "Europe/Saratov",
+		"Portion of country covered": "MSK+01 - Saratov",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+04:00",
+		"UTC DST offset ±hh:mm": "+04:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "10244",
+		"tzonecode": "Europe/Ulyanovsk",
+		"Portion of country covered": "MSK+01 - Ulyanovsk",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+04:00",
+		"UTC DST offset ±hh:mm": "+04:00",
+		"Notes": ""
+	},
+	{
+		"cc": "RU",
+		"Latitude, longitude ±DDMM(SS)±DDDMM(SS)": "9269",
+		"tzonecode": "Europe/Volgograd",
+		"Portion of country covered": "MSK+01 - Volgograd",
+		"Status": "Canonical",
+		"UTC offset ±hh:mm": "+04:00",
+		"UTC DST offset ±hh:mm": "+04:00",
+		"Notes": ""
+	}
+]
