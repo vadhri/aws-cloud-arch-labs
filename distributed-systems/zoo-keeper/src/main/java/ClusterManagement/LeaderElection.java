@@ -1,4 +1,4 @@
-package com.LeaderElection;
+package ClusterManagement;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
@@ -9,29 +9,21 @@ import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 
 import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.Collections;
 import java.util.List;
 
 public class LeaderElection implements Watcher {
     private static final String ZOOKEEPER_ADDR = "localhost:2181";
     private static final int SESSION_TIMEOUT = 3000;
-    private static ZooKeeper zook;
     private static String ELECTION_NAMESPACE = "/election";
     private String currentZnodeName;
-    
-    public void connectToZooKeeper() throws IOException {
-        zook = new ZooKeeper(ZOOKEEPER_ADDR, SESSION_TIMEOUT, this);
-    }
-    public static void main(String [] args) throws IOException, InterruptedException, KeeperException {
-        LeaderElection le = new LeaderElection();
-        le.connectToZooKeeper();
-        
-        le.volunteerForLeadership();
-        le.electLeader();
+    private ZooKeeper zook;
+    private RoleChangeManager roleChangeManager;
 
-        le.run();
-        le.close();
-        System.out.println("Exited the zookeeper app....");
+    public LeaderElection(ZooKeeper mz, RoleChangeManager rcm) {
+        this.zook = mz;
+        this.roleChangeManager = rcm;
     }
 
     public void volunteerForLeadership() throws KeeperException, InterruptedException {
@@ -42,7 +34,7 @@ public class LeaderElection implements Watcher {
         this.currentZnodeName = zNodeFullPath.replace(ELECTION_NAMESPACE+"/", "");
     }
 
-    public void electLeader() throws KeeperException, InterruptedException {
+    public void electLeader() throws KeeperException, InterruptedException, UnknownHostException {
         String predecessorZnodeName = "";
         Stat predecessorStats = null;
         List<String> clist = zook.getChildren(ELECTION_NAMESPACE, false);
@@ -52,6 +44,7 @@ public class LeaderElection implements Watcher {
             String smallestChild = clist.get(0);
             if (smallestChild.equals(this.currentZnodeName)) {
                 System.out.println("Current node is the leader");
+                roleChangeManager.OnElectedLeader();
                 return;
             } else {
                 System.out.println("Current node is not the leader. " + smallestChild + " is the laeder");
@@ -60,18 +53,8 @@ public class LeaderElection implements Watcher {
                 predecessorStats = zook.exists(ELECTION_NAMESPACE + "/" + predecessorZnodeName, this);
             }
         }
-
+        roleChangeManager.OnWorker();
         System.out.println("Watching node..." + predecessorZnodeName);
-    }
-
-    private void run() throws InterruptedException {
-        synchronized (zook) {
-            zook.wait();
-        }
-    }
-
-    private void close() throws InterruptedException {
-        zook.close();
     }
 
     @Override
@@ -91,7 +74,7 @@ public class LeaderElection implements Watcher {
                     electLeader();
                 } catch (KeeperException e) {
                     e.printStackTrace();
-                } catch (InterruptedException e) {
+                } catch (InterruptedException | UnknownHostException e) {
                     e.printStackTrace();
                 }
 

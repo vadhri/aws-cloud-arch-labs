@@ -27,7 +27,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.LeaderElection.LeaderElection</mainClass>
+                            <mainClass>MainApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -47,7 +47,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.LeaderElection.LeaderElection</mainClass>
+                            <mainClass>MainApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
